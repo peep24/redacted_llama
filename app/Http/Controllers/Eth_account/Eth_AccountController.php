@@ -48,7 +48,7 @@ class Eth_AccountController extends Controller
         return back();
    }
 
-   public function buyEth(Request $request) {
+   public function fund(Request $request) {
     $web3 = new Web3('http://127.0.0.1:5000');
 
     $this->validate($request, [
