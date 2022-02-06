@@ -1,0 +1,43 @@
+
+Initial Command
+################################
+################################
+ganache-cli -h 127.0.0.1 -p 5000 --account "0xc87286c0b6c07bd945a46f3b0b1bedebb821d67f2ff8f0536b4dc606cfb7248e,1000000000000000000 " --account "0x1d03551624645c60554aedb1ce0b637ccb5e7f66b24d11e613ba423f203a5db8,0" --account "0xc1044fa40e1194fb10f39abedc938bb55661b12ced4cda36113d107f9e104aae,0"
+################################
+################################
+
+
+Initial Command + delay
+################################
+################################
+ganache-cli -h 127.0.0.1 -p 5000 -b 15 --account "0xc87286c0b6c07bd945a46f3b0b1bedebb821d67f2ff8f0536b4dc606cfb7248e,1000000000000000000 " --account "0x1d03551624645c60554aedb1ce0b637ccb5e7f66b24d11e613ba423f203a5db8,0" --account "0xc1044fa40e1194fb10f39abedc938bb55661b12ced4cda36113d107f9e104aae,0"
+################################
+################################
+
+
+
+Available Accounts
+==================
+(0) 0x046032591f89393E0d807F6DA719CbbE031d739a (1 ETH)
+(1) 0x942a7fa10f1ea44606330006F42d15D050f75e90 (0 ETH)
+(2) 0x70a6E178D5f1aB51a64A20A408A6d9C41060a45A (0 ETH)
+
+Private Keys
+==================
+(0) 0xc87286c0b6c07bd945a46f3b0b1bedebb821d67f2ff8f0536b4dc606cfb7248e
+(1) 0x1d03551624645c60554aedb1ce0b637ccb5e7f66b24d11e613ba423f203a5db8
+(2) 0xc1044fa40e1194fb10f39abedc938bb55661b12ced4cda36113d107f9e104aae
+
+Gas Price
+==================
+20000000000
+
+Gas Limit
+==================
+6721975
+
+Call Gas Limit
+==================
+9007199254740991
+
+Listening on 127.0.0.1:5000
