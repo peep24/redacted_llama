@@ -43,7 +43,7 @@ class ethAPIController extends Controller
 
     }
 
-    public function buyEth(Request $request) {
+    public function fund(Request $request) {
    
         $web3 = new Web3('http://127.0.0.1:5000');
 
